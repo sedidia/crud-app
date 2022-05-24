@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=PT+Sans&display=swap');
+
+:root{
+    --dark: #2b2d42;
+}
+.dark{
+    background: #2b2d42; 
+    color: #fff;  
+}
+a{
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+}

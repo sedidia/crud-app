@@ -1,0 +1,30 @@
+<!-- include header -->
+    <%- include('include/_header') %>
+<!-- /include header -->
+
+<!-- main -->
+<div class="site-main">
+    <a href="add_user">Add user</a>
+    <form action="/" method="post">
+        <table class="table">
+            <thead>
+                <tr class="dark">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>@email</th>
+                    <th>Gender</th>
+                    <th>Status</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%- include('include/_show') %>
+            </tbody>
+        </table>
+    </form>
+</div>
+<!-- /main -->
+
+<!-- include footer -->
+    <%- include('include/_footer') %>
+<!-- /include footer -->

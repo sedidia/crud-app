@@ -1,0 +1,34 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<!-- main -->
+<div class="site-main">
+    <h1>UPDATE USER</h1>
+    <a href="/">All user</a>
+</div><br><br>
+<form method="post" id="add_user">
+    <input type="hidden" name="id" value="">
+    <input type="name" name="name" placeholder="name"><br><br>
+    <input type="email" name="email" placeholder="sedidi.ka@gmail.com"><br><br>
+
+    <h3>GENDER</h3>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label><br><br>
+    <input type="radio" name="gender" id="female" value="male">
+    <label for="female">Female</label>
+
+
+    <h3>STATUS</h3>
+    <input type="radio" name="status" id="active" value="active">
+    <label for="active">Male</label><br><br>
+    <input type="radio" name="status" id="inactive" value="inactive">
+    <label for="inactive">Female</label><br><br>
+
+    <button type="submit">Save</button>
+</form>
+<!-- /main -->
+
+<!-- include footer -->
+    <%- include('include/_footer') %>
+<!-- /include footer -->
